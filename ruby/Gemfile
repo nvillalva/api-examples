@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+
+gem 'oauth2', '~>0.9.3'
+gem 'launchy', '~>2.4.2'
+gem 'faraday', '~>0.9.0'
+gem 'json', '~>1.8.1'
+gem 'webrick'
