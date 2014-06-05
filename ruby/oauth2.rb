@@ -12,8 +12,8 @@ require 'webrick'
 # The following should be populated with your app's information
 #  CLIENT_ID and CLIENT_SECRET are issued by mashery
 #  redirect_uri is the callback uri as configured in mashery
-CLIENT_ID = '<redacted>'
-CLIENT_SECRET = '<redacted>'
+CLIENT_ID = ENV['MMF_CLIENT_ID']
+CLIENT_SECRET = ENV['MMF_CLIENT_SECRET']
 redirect_uri = 'http://localhost.mapmyapi.com:12345/callback/'
 
 # Once you have an access token for your test user, feel free to
